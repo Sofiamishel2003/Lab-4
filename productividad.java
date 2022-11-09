@@ -1,5 +1,3 @@
 public interface productividad {
-    boolean estado();
-    boolean encender();
-   
+    public String viajes(); 
 }

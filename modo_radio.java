@@ -1,7 +1,7 @@
 public interface modo_radio {
-    boolean cambiar();
-    boolean cambiar_e();
-    boolean guardar();
-    boolean cargar();
+    public void cambiar();
+    public void cambiar_e();
+    public void guardar();
+    public void cargar();
 
 }

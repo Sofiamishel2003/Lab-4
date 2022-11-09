@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 public interface telefono {
-    boolean estado();
-    boolean encender();
-   
+    public void conexion(boolean conection);
+    public void contactos(ArrayList<contacto> lista);
+
 }
